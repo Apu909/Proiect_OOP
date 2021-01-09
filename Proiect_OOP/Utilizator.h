@@ -10,6 +10,7 @@ class Utilizator
 
 public:
 	//commente urate
+	//comente urate v2
 	Utilizator();
 	bool autentificare();
 	string getNume();
