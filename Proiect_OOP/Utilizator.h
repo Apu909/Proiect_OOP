@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 class Utilizator
-{
+{ //nust github
 	string nume;
 	string prenume;
 	string adresa;
