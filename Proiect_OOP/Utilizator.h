@@ -2,12 +2,14 @@
 #include <string>
 using namespace std;
 class Utilizator
-{ //nust github
+{ 
 	string nume;
 	string prenume;
 	string adresa;
 	string parola;
+
 public:
+	//commente urate
 	Utilizator();
 	bool autentificare();
 	string getNume();
