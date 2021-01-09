@@ -1,0 +1,16 @@
+﻿  Client.cpp
+  Cos.cpp
+C:\Users\manol\Desktop\opo\Proiect_OOP\Cos.cpp(43): error C2102: '&' requires l-value
+C:\Users\manol\Desktop\opo\Proiect_OOP\Cos.cpp(44): error C2102: '&' requires l-value
+C:\Users\manol\Desktop\opo\Proiect_OOP\Cos.cpp(45): error C2102: '&' requires l-value
+C:\Users\manol\Desktop\opo\Proiect_OOP\Cos.cpp(37,13): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Depozit.cpp
+  Magazin.cpp
+C:\Users\manol\Desktop\opo\Proiect_OOP\Magazin.cpp(5,30): error C2660: 'Depozit::adaugaProdusinStoc': function does not take 1 arguments
+C:\Users\manol\Desktop\opo\Proiect_OOP\Depozit.h(12,7): message : see declaration of 'Depozit::adaugaProdusinStoc'
+C:\Users\manol\Desktop\opo\Proiect_OOP\Magazin.cpp(10,31): error C2660: 'Depozit::stergeProdusdinStoc': function does not take 1 arguments
+C:\Users\manol\Desktop\opo\Proiect_OOP\Depozit.h(11,7): message : see declaration of 'Depozit::stergeProdusdinStoc'
+C:\Users\manol\Desktop\opo\Proiect_OOP\Magazin.cpp(15,33): error C2660: 'Depozit::editeazaProdusdinStoc': function does not take 1 arguments
+C:\Users\manol\Desktop\opo\Proiect_OOP\Depozit.h(13,7): message : see declaration of 'Depozit::editeazaProdusdinStoc'
+  Produs.cpp
+  Generating Code...

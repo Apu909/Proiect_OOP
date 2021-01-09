@@ -147,7 +147,10 @@
     <ClCompile Include="Cos.cpp" />
     <ClCompile Include="Depozit.cpp" />
     <ClCompile Include="Magazin.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Main.cpp">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClCompile Include="Produs.cpp" />
     <ClCompile Include="Utilizator.cpp" />
   </ItemGroup>
